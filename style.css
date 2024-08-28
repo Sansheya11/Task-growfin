@@ -1,0 +1,470 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.container {
+    max-width: 100%; 
+    width: 100%; 
+   
+    
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 40px;
+    background-color: #2563EB; 
+}
+
+
+.logo img {
+    max-width: 150px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 15px;
+}
+.header-button {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #05FFFF !important;
+    border-radius: 16px !important;
+    cursor: pointer;
+    color: #05FFFF !important;
+    
+}
+
+.demo {
+    background-color: #007bff;
+    
+}
+
+.access {
+    background-color: #28a745;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    background-color: #05FFFF;
+    color: black !important;
+}
+.two-column{
+    padding-left: 80px;
+    padding-right: 40px;
+    padding-top: 80px;
+    background-color: #2563EB;
+}
+/* First fold */
+.two-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: Adds space between columns */
+}
+
+.title-app{
+    padding-top: 86px; 
+}
+.title{
+    font-size: 64px;
+    color: white;
+}
+.paragraph{
+    font-size: 20px;
+    padding-bottom: 40px;
+    color: white;
+}
+/* Early Customers */
+.achieved{
+    padding-top: 80px;
+    
+}
+.gradient-text {
+    background: linear-gradient(180deg, #2563EB -16.35%, #000000 136.14%);
+    -webkit-background-clip: text;  
+    background-clip: text; 
+    color: transparent; 
+    font-size: 52px; 
+    font-weight: bold;
+  }
+
+.title-achieved{
+    padding-bottom: 40px;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.percentage{
+    font-size: 45px;
+    font-weight: bold;
+}
+.list-items{
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+li{
+    text-decoration: none;
+}
+.list-per{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+  
+    height: 100vh;
+   
+}
+/* Logo section */
+.logo-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 90px; 
+    padding: 20px; 
+    padding-top: 80px;
+  }
+  
+
+  .logo-section img {
+    width: 193px; 
+    height: 31; 
+  }
+  /* testimonals */
+  .testimonial-section{
+    text-align: center; 
+    padding: 50px;
+    position: relative; 
+  }
+  .line{
+    padding-bottom: 40px;
+  }
+  .testimonial-text{
+    align-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Montserrat;
+  }
+  .testimonal-author{
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .author{
+    font-weight: 400;
+  }
+
+  /*Experience  Application  */
+  .experience-app{
+    background-color: #E4FDFF;
+    padding: 40px;
+  }
+  .exp-content{
+    padding-top: 40px ;
+    padding-bottom: 40px;
+
+  }
+  img.multi_icon {
+    height: 48px;
+    padding: 0;
+    width: 48px;
+}
+
+.card{
+    border: none !important;
+}
+.exp-card{
+    padding: 40px !important;
+}
+.card-title {
+    padding-top: 20px;
+}
+.text-exp{
+    font-size: 52px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #2563EB -16.35%, #000000 136.14%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    font-size: 52px; 
+    font-weight: bold;
+}
+.par-exp{
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-end;
+}
+.exp-button {
+    display: flex;
+    gap: 15px;
+}
+
+
+.btn1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #7C3AED!important;
+   
+    border-radius: 16px !important;
+    cursor: pointer;
+    color:  #7C3AED !important;
+    font-weight: 400;
+    
+    
+}
+
+.demo1 {
+    background-color: #E4FDFF;
+    
+}
+
+.access1 {
+    background-color: #E4FDFF;
+}
+
+.btn1:hover {
+    opacity: 0.8;
+    background-color: #7C3AED;
+    color: white !important;
+}
+/* transform app  */
+.transform-app{
+    padding: 80px;
+}
+.nav-tabs .nav-link {
+    border: none;
+    color: #000; 
+    border-bottom: 4px solid transparent;
+    flex: 1;
+    text-align: center;
+    padding: 0.75rem 1.25rem;
+    position: relative;
+}
+.nav-tabs .nav-link{
+    border: none !important;
+ 
+}
+.nav-item{
+    display: contents;
+}
+.nav-tabs .nav-link.active {
+    border-bottom: 4px solid transparent !important;
+    border-image-source: linear-gradient(103.43deg, #2563EB 25.63%, #8D9097 80.73%) !important;
+    border-image-slice: 1 !important;
+    color: #1E40AF !important;
+    font-weight: 700;
+  
+}
+.tab-content .tab-pane {
+    padding: 1rem;
+}
+
+.nav-tabs{
+    border-bottom: none !important;
+}
+.diff-col{
+    border-right: 1px solid #94A3B8;
+}
+/* About section */
+.about-app{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.about-title{
+    font-size: 52px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #2563EB -16.35%, #000000 136.14%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    font-size: 52px; 
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.about-des{
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+td:not(:first-child) {
+    border-bottom: 1px solid #000;
+}
+
+
+.tab-title{
+    font-size: 32px;
+    font-weight: 700;
+}
+.table-des{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 32px !important;
+}
+
+/* CTA SECTION */
+.cta-bg{
+    background: linear-gradient(105.5deg, #2563EB 0.21%, #1F3B8B 63.36%);
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+.content-cta{
+    display: flex;
+    flex-direction: column ;
+   
+    align-items: center;
+}
+.title-cta{
+    padding-bottom: 40px;
+    font-size: 52px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+/* Footer */
+a.text-white{
+    text-decoration: none;
+}
+.footer-list{
+    padding-bottom: 10px;
+}
+@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .header-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-buttons .btn {
+        margin-bottom: 10px;
+    }
+    .two-column .col-md-6 {
+        text-align: center;
+    }
+    .logo{
+        padding-right: 40px;
+    }
+   .header{
+    padding-left: 40px;
+   }
+    .two-column {
+        padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    }
+    .list-percent{
+        padding: 0;
+    }
+    .logo-section {
+        flex-direction: column; 
+        gap: 10px; 
+      }
+      .experience-card{
+        padding-bottom: 20px;
+    }
+    .company-logo{
+        padding-bottom: 20px;
+      }
+      .achieved{
+        padding: 40px;
+      }
+
+      
+        table, tbody, tr, td, th {
+            display: block;
+            width: 100%;
+        }
+
+        tr {
+            margin-bottom: 15px;
+        }
+
+        td, th {
+            text-align: left;
+            padding: 10px;
+            border: none;
+            border-bottom: 1px solid #ddd;
+        }
+
+        td:not(:first-child) {
+            border-bottom: none;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        td:before {
+            content: attr(data-label);
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .table-content{
+            border-bottom: 1px solid black;
+        }
+        .diff-col{
+            border-right: none;
+        }
+    
+
+}
+@media (max-width: 320px) {
+    .container {
+        padding: 10px;
+    }
+    .element {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
